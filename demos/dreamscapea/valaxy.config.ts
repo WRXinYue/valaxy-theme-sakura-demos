@@ -12,5 +12,7 @@ export default defineValaxyConfig<ThemeUserConfig>({
         enable: true,
       },
     },
+
+    navbarTitle: ['Hello', '', 'Sakura'],
   },
 })
