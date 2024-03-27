@@ -9,11 +9,8 @@ dependencies:
     specifier: 0.18.5
     version: 0.18.5(@types/markdown-it@13.0.7)(@unhead/shared@1.8.20)(postcss@8.4.38)(typescript@5.4.2)(unhead@1.8.20)
   valaxy-theme-sakura:
-    specifier: 0.4.2-alpha.1
-    version: 0.4.2-alpha.1
-  valaxy-theme-yun:
-    specifier: 0.18.5
-    version: 0.18.5
+    specifier: 0.4.9-alpha.3
+    version: 0.4.9-alpha.3
 
 devDependencies:
   '@iconify-json/ion':
@@ -622,16 +619,6 @@ packages:
     dev: false
     optional: true
 
-  /@explosions/fireworks@0.0.2:
-    resolution: {integrity: sha512-BiF9iWE/8jTmqlxcIhSZlJgUlBJ62Wk9I6jTwfkd0zMn0QS2IxTxypOnV4CSo21bsnmsvJxh9ryepAK+D4OJqA==}
-    dev: false
-
-  /@iconify-json/ant-design@1.1.15:
-    resolution: {integrity: sha512-E8XLyDo2HWVeVT8ViNTxF2+0Vgcox8FC73G4v64AM+lvlWpERcY90g7jXoBOeykl1pQCf1awkQUwjkynZ8Xb7A==}
-    dependencies:
-      '@iconify/types': 2.0.0
-    dev: false
-
   /@iconify-json/carbon@1.1.31:
     resolution: {integrity: sha512-CAvECFfiwGyZmlcuM2JLMRDEN3VsIEZv6lml7Xf+3giQ5oXloADm0b5wiVPFZmONKM5jXERmx+E7YSvAtFJIbw==}
     dependencies:
@@ -658,12 +645,6 @@ packages:
 
   /@iconify-json/ri@1.1.20:
     resolution: {integrity: sha512-yScIGjLFBCJKWKskQTWRjNI2Awoq+VRDkRxEsCQvSfdz41n+xkRtFG2K6J1OVI90ClRHfjFC8VJ2+WzxxyFjTQ==}
-    dependencies:
-      '@iconify/types': 2.0.0
-    dev: false
-
-  /@iconify-json/simple-icons@1.1.95:
-    resolution: {integrity: sha512-rNrqaG7PVrR0CsawtTb44xXiUhh3REBmYo5WbUMchtZQUMfJfGAszFMnAkFNs2GLVO2H/VTimA98hOtJfKWSig==}
     dependencies:
       '@iconify/types': 2.0.0
     dev: false
@@ -1625,10 +1606,6 @@ packages:
       debug: 4.3.4
     transitivePeerDependencies:
       - supports-color
-    dev: false
-
-  /animejs@3.2.2:
-    resolution: {integrity: sha512-Ao95qWLpDPXXM+WrmwcKbl6uNlC5tjnowlaRYtuVDHHoygjtIPfDUoK9NthrlZsQSKjZXlmji2TrBUAVbiH0LQ==}
     dev: false
 
   /ansi-regex@5.0.1:
@@ -4796,23 +4773,14 @@ packages:
       sade: 1.8.1
     dev: false
 
-  /valaxy-theme-sakura@0.4.2-alpha.1:
-    resolution: {integrity: sha512-NOmZ7OhLWCj8jsVycpOdU7OIpyw/9e/qkuwdhFWxFiTQgWHVtPvDx8/froGN0OlSlVTLlNDksbcs8/kTCocpBA==}
+  /valaxy-theme-sakura@0.4.9-alpha.3:
+    resolution: {integrity: sha512-4lyj420j21El9RVHctMljNPL7rOmajf4Y531x5tQH5oy0rzKV64/PU/pCCoFjqj5xYNgq4DOtwomfvboTwOZzw==}
     dependencies:
       '@iconify-json/fa6-solid': 1.1.20
       '@iconify-json/mdi': 1.1.64
       '@studio-freight/lenis': 1.0.42
       smooth-scrollbar: 8.8.4
       typed.js: 2.1.0
-    dev: false
-
-  /valaxy-theme-yun@0.18.5:
-    resolution: {integrity: sha512-iA1j3zUcFyOzc2E/1m+cbcCytdaWOVS5C5JPC8DqVFSUbkAyPyT/5JAXFuSni9KwQuiLZQ5Vea7LFDcmshdpNw==}
-    dependencies:
-      '@explosions/fireworks': 0.0.2
-      '@iconify-json/ant-design': 1.1.15
-      '@iconify-json/simple-icons': 1.1.95
-      animejs: 3.2.2
     dev: false
 
   /valaxy@0.18.5(@types/markdown-it@13.0.7)(@unhead/shared@1.8.20)(postcss@8.4.38)(typescript@5.4.2)(unhead@1.8.20):

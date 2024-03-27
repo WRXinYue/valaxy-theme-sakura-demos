@@ -1,0 +1,28 @@
+{
+  "type": "module",
+  "private": true,
+  "packageManager": "pnpm@8.15.4",
+  "homepage": "https://sakura.wrxinyue.org",
+  "scripts": {
+    "build": "npm run build:demo",
+    "build:demo": "npm -C demo run build",
+    "build:docs": "pnpm -C docs run build",
+    "dev": "npm run default",
+    "default": "npm -C demos/default run dev",
+    "flaribbit": "npm -C demos/flaribbit run dev",
+    "dreamscapea": "npm -C demos/dreamscapea run dev",
+    "docs": "pnpm -C docs run dev",
+    "lint": "eslint .",
+    "release": "cd theme && git add -A && bumpp",
+    "typecheck": "vue-tsc --noEmit --skipLibCheck"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "2.7.0",
+    "eslint": "^8.57.0",
+    "typescript": "^5.3.3",
+    "valaxy": "^0.18.5"
+  },
+  "dependencies": {
+    "valaxy-theme-sakura": "0.4.9-alpha.3"
+  }
+}
