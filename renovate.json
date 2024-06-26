@@ -4,5 +4,9 @@
     "config:recommended"
   ],
   "automerge": true,
+  "automergeType": "pr",
+  "automergeStrategy": "auto",
+  "baseBranches": ["main"],
+  "updateNotScheduled": false,
   "commitMessagePrefix": "chore(deps): "
 }
