@@ -3,11 +3,23 @@
   "extends": [
     "config:base"
   ],
-  "automerge": true,
-  "automergeType": "branch",
-  "automergeStrategy": "auto",
-  "requiredStatusChecks": null,
-  "platformAutomerge": true,
-  "baseBranches": ["main"],
-  "commitMessagePrefix": "chore(deps): "
+  "commitMessagePrefix": "chore(deps): ",
+  "rangeStrategy": "bump",
+  "rebaseLabel": "rebase",
+  "rebaseWhen": "auto",
+  "requiredStatusChecks": [],
+  "packageRules": [
+    {
+      "updateTypes": ["minor", "patch", "pin", "digest"],
+      "automerge": true
+    },
+    {
+      "depTypeList": ["devDependencies"],
+      "automerge": true
+    },
+    {
+      "packagePatterns": ["eslint"],
+      "groupName": "eslint"
+    }
+  ]
 }
