@@ -4,22 +4,9 @@
     "config:base"
   ],
   "commitMessagePrefix": "chore(deps): ",
+  "automerge": true,
   "rangeStrategy": "bump",
   "rebaseLabel": "rebase",
   "rebaseWhen": "auto",
-  "requiredStatusChecks": [],
-  "packageRules": [
-    {
-      "updateTypes": ["minor", "patch", "pin", "digest"],
-      "automerge": true
-    },
-    {
-      "depTypeList": ["devDependencies"],
-      "automerge": true
-    },
-    {
-      "packagePatterns": ["eslint"],
-      "groupName": "eslint"
-    }
-  ]
+  "requiredStatusChecks": []
 }
