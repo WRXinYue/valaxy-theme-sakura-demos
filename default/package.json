@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "valaxy": "0.18.9",
-    "valaxy-theme-sakura": "workspace:*"
+    "valaxy-theme-sakura": "0.6.3"
   },
   "devDependencies": {
     "typescript": "^5.5.2"
