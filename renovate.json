@@ -1,16 +1,12 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    "config:recommended"
+    "config:base"
   ],
-  "packageRules": [
-    {
-      "updateTypes": ["minor", "patch", "pin", "digest"],
-      "automerge": true
-    }
-  ],
+  "automerge": true,
   "automergeType": "branch",
   "automergeStrategy": "auto",
+  "requiredStatusChecks": null,
   "platformAutomerge": true,
   "baseBranches": ["main"],
   "commitMessagePrefix": "chore(deps): "
