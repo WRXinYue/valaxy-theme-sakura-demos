@@ -8,5 +8,6 @@
   "rangeStrategy": "bump",
   "rebaseLabel": "rebase",
   "rebaseWhen": "auto",
+  "platformAutomerge": true,
   "requiredStatusChecks": []
 }

@@ -47,7 +47,6 @@ declare module 'vue-router/auto-routes' {
     '/posts/excerpt-type-text': RouteRecordInfo<'/posts/excerpt-type-text', '/posts/excerpt-type-text', Record<never, never>, Record<never, never>>,
     '/posts/framework-and-pages': RouteRecordInfo<'/posts/framework-and-pages', '/posts/framework-and-pages', Record<never, never>, Record<never, never>>,
     '/posts/hello-valaxy': RouteRecordInfo<'/posts/hello-valaxy', '/posts/hello-valaxy', Record<never, never>, Record<never, never>>,
-    '/posts/hello-valaxy copy': RouteRecordInfo<'/posts/hello-valaxy copy', '/posts/hello-valaxy copy', Record<never, never>, Record<never, never>>,
     '/posts/hide': RouteRecordInfo<'/posts/hide', '/posts/hide', Record<never, never>, Record<never, never>>,
     '/posts/hide-in-index': RouteRecordInfo<'/posts/hide-in-index', '/posts/hide-in-index', Record<never, never>, Record<never, never>>,
     '/posts/katex': RouteRecordInfo<'/posts/katex', '/posts/katex', Record<never, never>, Record<never, never>>,
