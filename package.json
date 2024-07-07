@@ -1,7 +1,7 @@
 {
   "type": "module",
   "private": true,
-  "packageManager": "pnpm@9.4.0",
+  "packageManager": "pnpm@9.5.0",
   "homepage": "https://sakura.valaxy.site",
   "scripts": {
     "dev": "pnpm run default",
