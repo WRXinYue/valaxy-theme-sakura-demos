@@ -9,5 +9,15 @@
   "rebaseLabel": "rebase",
   "rebaseWhen": "auto",
   "platformAutomerge": true,
-  "requiredStatusChecks": []
+  "requiredStatusChecks": [],
+  "packageRules": [
+    {
+      "matchPackageNames": ["valaxy", "valaxy-theme-sakura"],
+      "enabled": true
+    },
+    {
+      "matchPackagePatterns": ["*"],
+      "enabled": false
+    }
+  ]
 }
