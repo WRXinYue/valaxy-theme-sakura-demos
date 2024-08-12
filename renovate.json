@@ -12,12 +12,12 @@
   "requiredStatusChecks": [],
   "packageRules": [
     {
-      "matchPackageNames": ["valaxy", "valaxy-theme-sakura"],
-      "enabled": true
-    },
-    {
       "matchPackagePatterns": ["*"],
       "enabled": false
+    },
+    {
+      "matchPackageNames": ["valaxy", "valaxy-theme-sakura"],
+      "enabled": true
     }
   ]
 }
