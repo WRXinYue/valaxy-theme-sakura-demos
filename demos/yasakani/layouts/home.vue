@@ -8,7 +8,7 @@ const siteConfig = useSiteConfig()
   <Layout>
     <SakuraHomeLayout>
       <template #right>
-        <SakuraCard>
+        <!-- <SakuraCard>
           <template #content>
             <div class="flex flex-col items-center my-5">
               <div class="site-author-avatar">
@@ -35,7 +35,7 @@ const siteConfig = useSiteConfig()
               </div>
             </div>
           </template>
-        </SakuraCard>
+        </SakuraCard> -->
       </template>
     </SakuraHomeLayout>
   </Layout>

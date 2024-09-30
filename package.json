@@ -1,21 +1,22 @@
 {
-  "type": "module",
   "private": true,
-  "packageManager": "pnpm@9.5.0",
   "homepage": "https://sakura.valaxy.site",
   "scripts": {
-    "dev": "pnpm run default",
-    "default": "pnpm -C default run dev",
-    "ocean": "pnpm -C ocean run dev",
-    "yasakani": "pnpm -C yasakani run dev",
+    "dev": "lerna run dev",
+    "default": "pnpm -C demos/default run dev",
+    "ocean": "pnpm -C demos/ocean run dev",
+    "yasakani": "pnpm -C demos/yasakani run dev",
+    "build": "lerna run build --stream",
+    "clean": "lerna clean",
     "lint": "eslint .",
     "typecheck": "vue-tsc --noEmit"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "2.21.3",
+    "@antfu/eslint-config": "^3.7.3",
     "eslint": "^9.6.0",
+    "lerna": "^8.1.8",
     "valaxy": "^0.19.9",
-    "valaxy-theme-sakura": "0.6.7",
+    "valaxy-theme-sakura": "0.6.8-alpha.4",
     "vite": "^5.3.3",
     "vite-plugin-vue-layouts": "^0.11.0",
     "vue-tsc": "2.0.24"

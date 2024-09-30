@@ -1,5 +1,5 @@
 {
-  "name": "default",
+  "name": "ocean",
   "type": "module",
   "version": "0.0.0",
   "private": true,
@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "valaxy": "^0.19.9",
-    "valaxy-theme-sakura": "0.6.7"
+    "valaxy-theme-sakura": "0.6.8-alpha.4"
   },
   "devDependencies": {
     "typescript": "^5.5.3"
