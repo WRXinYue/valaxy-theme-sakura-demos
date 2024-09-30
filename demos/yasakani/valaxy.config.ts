@@ -1,5 +1,5 @@
-import { defineValaxyConfig } from 'valaxy'
 import type { ThemeUserConfig } from 'valaxy-theme-sakura'
+import { defineValaxyConfig } from 'valaxy'
 
 export default defineValaxyConfig<ThemeUserConfig>({
   theme: 'sakura',

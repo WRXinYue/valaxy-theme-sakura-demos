@@ -5,7 +5,6 @@
   "scripts": {
     "dev": "lerna run dev",
     "default": "pnpm -C demos/default run dev",
-    "ocean": "pnpm -C demos/ocean run dev",
     "yasakani": "pnpm -C demos/yasakani run dev",
     "build": "lerna run build --stream",
     "clean": "lerna clean",
