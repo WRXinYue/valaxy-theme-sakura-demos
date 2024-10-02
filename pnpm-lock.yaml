@@ -21,8 +21,8 @@ importers:
         specifier: ^0.19.12
         version: 0.19.12(@babel/parser@7.25.6)(@types/markdown-it@14.1.2)(@types/node@22.7.4)(axios@1.7.7)(postcss@8.4.47)(rollup@4.22.5)(typescript@5.6.2)
       valaxy-theme-sakura:
-        specifier: 0.6.8-alpha.4
-        version: 0.6.8-alpha.4(valaxy-addon-hitokoto@0.0.1)(valaxy-addon-vercount@0.0.5)(valaxy-addon-waline@0.1.5(typescript@5.6.2)(valaxy@0.19.12(@babel/parser@7.25.6)(@types/markdown-it@14.1.2)(@types/node@22.7.4)(axios@1.7.7)(postcss@8.4.47)(rollup@4.22.5)(typescript@5.6.2)))
+        specifier: 0.6.8
+        version: 0.6.8(valaxy-addon-hitokoto@0.0.1)(valaxy-addon-vercount@0.0.5)(valaxy-addon-waline@0.1.5(typescript@5.6.2)(valaxy@0.19.12(@babel/parser@7.25.6)(@types/markdown-it@14.1.2)(@types/node@22.7.4)(axios@1.7.7)(postcss@8.4.47)(rollup@4.22.5)(typescript@5.6.2)))
       vite:
         specifier: ^5.3.3
         version: 5.4.8(@types/node@22.7.4)(sass@1.79.4)
@@ -39,21 +39,8 @@ importers:
         specifier: ^0.19.12
         version: 0.19.12(@babel/parser@7.25.6)(@types/markdown-it@14.1.2)(@types/node@22.7.4)(axios@1.7.7)(postcss@8.4.47)(rollup@4.22.5)(typescript@5.6.2)
       valaxy-theme-sakura:
-        specifier: 0.6.8-alpha.4
-        version: 0.6.8-alpha.4(valaxy-addon-hitokoto@0.0.1)(valaxy-addon-vercount@0.0.5)(valaxy-addon-waline@0.1.5(typescript@5.6.2)(valaxy@0.19.12(@babel/parser@7.25.6)(@types/markdown-it@14.1.2)(@types/node@22.7.4)(axios@1.7.7)(postcss@8.4.47)(rollup@4.22.5)(typescript@5.6.2)))
-    devDependencies:
-      typescript:
-        specifier: ^5.5.3
-        version: 5.6.2
-
-  demos/ocean:
-    dependencies:
-      valaxy:
-        specifier: ^0.19.12
-        version: 0.19.12(@babel/parser@7.25.6)(@types/markdown-it@14.1.2)(@types/node@22.7.4)(axios@1.7.7)(postcss@8.4.47)(rollup@4.22.5)(typescript@5.6.2)
-      valaxy-theme-sakura:
-        specifier: 0.6.8-alpha.4
-        version: 0.6.8-alpha.4(valaxy-addon-hitokoto@0.0.1)(valaxy-addon-vercount@0.0.5)(valaxy-addon-waline@0.1.5(typescript@5.6.2)(valaxy@0.19.12(@babel/parser@7.25.6)(@types/markdown-it@14.1.2)(@types/node@22.7.4)(axios@1.7.7)(postcss@8.4.47)(rollup@4.22.5)(typescript@5.6.2)))
+        specifier: 0.6.8
+        version: 0.6.8(valaxy-addon-hitokoto@0.0.1)(valaxy-addon-vercount@0.0.5)(valaxy-addon-waline@0.1.5(typescript@5.6.2)(valaxy@0.19.12(@babel/parser@7.25.6)(@types/markdown-it@14.1.2)(@types/node@22.7.4)(axios@1.7.7)(postcss@8.4.47)(rollup@4.22.5)(typescript@5.6.2)))
     devDependencies:
       typescript:
         specifier: ^5.5.3
@@ -65,8 +52,8 @@ importers:
         specifier: ^0.19.12
         version: 0.19.12(@babel/parser@7.25.6)(@types/markdown-it@14.1.2)(@types/node@22.7.4)(axios@1.7.7)(postcss@8.4.47)(rollup@4.22.5)(typescript@5.6.2)
       valaxy-theme-sakura:
-        specifier: 0.6.8-alpha.4
-        version: 0.6.8-alpha.4(valaxy-addon-hitokoto@0.0.1)(valaxy-addon-vercount@0.0.5)(valaxy-addon-waline@0.1.5(typescript@5.6.2)(valaxy@0.19.12(@babel/parser@7.25.6)(@types/markdown-it@14.1.2)(@types/node@22.7.4)(axios@1.7.7)(postcss@8.4.47)(rollup@4.22.5)(typescript@5.6.2)))
+        specifier: 0.6.8
+        version: 0.6.8(valaxy-addon-hitokoto@0.0.1)(valaxy-addon-vercount@0.0.5)(valaxy-addon-waline@0.1.5(typescript@5.6.2)(valaxy@0.19.12(@babel/parser@7.25.6)(@types/markdown-it@14.1.2)(@types/node@22.7.4)(axios@1.7.7)(postcss@8.4.47)(rollup@4.22.5)(typescript@5.6.2)))
     devDependencies:
       typescript:
         specifier: ^5.5.3
@@ -5160,8 +5147,8 @@ packages:
     peerDependencies:
       valaxy: latest
 
-  valaxy-theme-sakura@0.6.8-alpha.4:
-    resolution: {integrity: sha512-tBTaqYlZButlxHbAxhBL7uB4ud6T/n+H68Btqu86DBEegL1DGRdWn0uz+LM8BDVs0wl05PBBy1+e0Ws/DKlLPw==}
+  valaxy-theme-sakura@0.6.8:
+    resolution: {integrity: sha512-IS1oU40R4+GlBf3+RkcqV7LP6wX8iz+S+XfTXu3rJ28WNPiwZaS7Y86Ho7Ea9bnBsCYhWam6vYC6bVNB0QYPYw==}
     peerDependencies:
       valaxy-addon-hitokoto: ^0.0.1
       valaxy-addon-vercount: ^0.0.5
@@ -11376,7 +11363,7 @@ snapshots:
       - '@vue/composition-api'
       - typescript
 
-  valaxy-theme-sakura@0.6.8-alpha.4(valaxy-addon-hitokoto@0.0.1)(valaxy-addon-vercount@0.0.5)(valaxy-addon-waline@0.1.5(typescript@5.6.2)(valaxy@0.19.12(@babel/parser@7.25.6)(@types/markdown-it@14.1.2)(@types/node@22.7.4)(axios@1.7.7)(postcss@8.4.47)(rollup@4.22.5)(typescript@5.6.2))):
+  valaxy-theme-sakura@0.6.8(valaxy-addon-hitokoto@0.0.1)(valaxy-addon-vercount@0.0.5)(valaxy-addon-waline@0.1.5(typescript@5.6.2)(valaxy@0.19.12(@babel/parser@7.25.6)(@types/markdown-it@14.1.2)(@types/node@22.7.4)(axios@1.7.7)(postcss@8.4.47)(rollup@4.22.5)(typescript@5.6.2))):
     dependencies:
       '@iconify-json/fa6-solid': 1.2.0
       '@iconify-json/mdi': 1.2.0
